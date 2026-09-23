@@ -1,0 +1,591 @@
+{
+  "format_version": "edgebench.capture/v1",
+  "source_file": "counter/i2c-polarity.json",
+  "sample_rate": {
+    "raw": "100MHz",
+    "unit": "MHz",
+    "v": 100000000,
+    "ok": true
+  },
+  "probes": [
+    {
+      "channel": "SCL",
+      "alias": "SCL",
+      "inverted_raw": "false",
+      "inverted": false,
+      "role": "scl",
+      "clk_pol_raw": "0",
+      "volt": {
+        "raw": "3.3V",
+        "unit": "V",
+        "v": 3.3,
+        "ok": true
+      }
+    },
+    {
+      "channel": "SDA",
+      "alias": "SDA",
+      "inverted_raw": "false",
+      "inverted": false,
+      "role": "sda",
+      "volt": {
+        "raw": "3.3V",
+        "unit": "V",
+        "v": 3.3,
+        "ok": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "E-MAIN-0",
+      "t": {
+        "raw": "100ns",
+        "unit": "ns",
+        "v": 1.0000000000000001e-7,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SDA"
+    },
+    {
+      "id": "E-MAIN-1",
+      "t": {
+        "raw": "140ns",
+        "unit": "ns",
+        "v": 1.4e-7,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SCL"
+    },
+    {
+      "id": "E-MAIN-2",
+      "t": {
+        "raw": "230ns",
+        "unit": "ns",
+        "v": 2.3000000000000002e-7,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SCL"
+    },
+    {
+      "id": "E-MAIN-3",
+      "t": {
+        "raw": "290ns",
+        "unit": "ns",
+        "v": 2.9000000000000003e-7,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SCL"
+    },
+    {
+      "id": "E-MAIN-4",
+      "t": {
+        "raw": "310ns",
+        "unit": "ns",
+        "v": 3.1e-7,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SDA"
+    },
+    {
+      "id": "E-MAIN-5",
+      "t": {
+        "raw": "330ns",
+        "unit": "ns",
+        "v": 3.3e-7,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SCL"
+    },
+    {
+      "id": "E-MAIN-6",
+      "t": {
+        "raw": "390ns",
+        "unit": "ns",
+        "v": 3.9e-7,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SCL"
+    },
+    {
+      "id": "E-MAIN-7",
+      "t": {
+        "raw": "410ns",
+        "unit": "ns",
+        "v": 4.1000000000000004e-7,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SDA"
+    },
+    {
+      "id": "E-MAIN-8",
+      "t": {
+        "raw": "430ns",
+        "unit": "ns",
+        "v": 4.3e-7,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SCL"
+    },
+    {
+      "id": "E-MAIN-9",
+      "t": {
+        "raw": "490ns",
+        "unit": "ns",
+        "v": 4.900000000000001e-7,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SCL"
+    },
+    {
+      "id": "E-MAIN-10",
+      "t": {
+        "raw": "530ns",
+        "unit": "ns",
+        "v": 5.3e-7,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SCL"
+    },
+    {
+      "id": "E-MAIN-11",
+      "t": {
+        "raw": "590ns",
+        "unit": "ns",
+        "v": 5.900000000000001e-7,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SCL"
+    },
+    {
+      "id": "E-MAIN-12",
+      "t": {
+        "raw": "630ns",
+        "unit": "ns",
+        "v": 6.3e-7,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SCL"
+    },
+    {
+      "id": "E-MAIN-13",
+      "t": {
+        "raw": "690ns",
+        "unit": "ns",
+        "v": 6.900000000000001e-7,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SCL"
+    },
+    {
+      "id": "E-MAIN-14",
+      "t": {
+        "raw": "730ns",
+        "unit": "ns",
+        "v": 7.3e-7,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SCL"
+    },
+    {
+      "id": "E-MAIN-15",
+      "t": {
+        "raw": "790ns",
+        "unit": "ns",
+        "v": 7.900000000000001e-7,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SCL"
+    },
+    {
+      "id": "E-MAIN-16",
+      "t": {
+        "raw": "830ns",
+        "unit": "ns",
+        "v": 8.300000000000001e-7,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SCL"
+    },
+    {
+      "id": "E-MAIN-17",
+      "t": {
+        "raw": "890ns",
+        "unit": "ns",
+        "v": 8.900000000000001e-7,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SCL"
+    },
+    {
+      "id": "E-MAIN-18",
+      "t": {
+        "raw": "930ns",
+        "unit": "ns",
+        "v": 9.300000000000001e-7,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SCL"
+    },
+    {
+      "id": "E-MAIN-19",
+      "t": {
+        "raw": "990ns",
+        "unit": "ns",
+        "v": 9.9e-7,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SCL"
+    },
+    {
+      "id": "E-MAIN-20",
+      "t": {
+        "raw": "1030ns",
+        "unit": "ns",
+        "v": 0.00000103,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SCL"
+    },
+    {
+      "id": "E-MAIN-21",
+      "t": {
+        "raw": "1090ns",
+        "unit": "ns",
+        "v": 0.0000010900000000000002,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SCL"
+    },
+    {
+      "id": "E-MAIN-22",
+      "t": {
+        "raw": "1130ns",
+        "unit": "ns",
+        "v": 0.00000113,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SCL"
+    },
+    {
+      "id": "E-MAIN-23",
+      "t": {
+        "raw": "1190ns",
+        "unit": "ns",
+        "v": 0.00000119,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SCL"
+    },
+    {
+      "id": "E-MAIN-24",
+      "t": {
+        "raw": "1210ns",
+        "unit": "ns",
+        "v": 0.00000121,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SDA"
+    },
+    {
+      "id": "E-MAIN-25",
+      "t": {
+        "raw": "1230ns",
+        "unit": "ns",
+        "v": 0.00000123,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SCL"
+    },
+    {
+      "id": "E-MAIN-26",
+      "t": {
+        "raw": "1290ns",
+        "unit": "ns",
+        "v": 0.0000012900000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SCL"
+    },
+    {
+      "id": "E-MAIN-27",
+      "t": {
+        "raw": "1310ns",
+        "unit": "ns",
+        "v": 0.0000013100000000000002,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SDA"
+    },
+    {
+      "id": "E-MAIN-28",
+      "t": {
+        "raw": "1330ns",
+        "unit": "ns",
+        "v": 0.0000013300000000000002,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SCL"
+    },
+    {
+      "id": "E-MAIN-29",
+      "t": {
+        "raw": "1390ns",
+        "unit": "ns",
+        "v": 0.00000139,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SCL"
+    },
+    {
+      "id": "E-MAIN-30",
+      "t": {
+        "raw": "1410ns",
+        "unit": "ns",
+        "v": 0.00000141,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SDA"
+    },
+    {
+      "id": "E-MAIN-31",
+      "t": {
+        "raw": "1430ns",
+        "unit": "ns",
+        "v": 0.00000143,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SCL"
+    },
+    {
+      "id": "E-MAIN-32",
+      "t": {
+        "raw": "1490ns",
+        "unit": "ns",
+        "v": 0.0000014900000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SCL"
+    },
+    {
+      "id": "E-MAIN-33",
+      "t": {
+        "raw": "1510ns",
+        "unit": "ns",
+        "v": 0.0000015100000000000002,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SDA"
+    },
+    {
+      "id": "E-MAIN-34",
+      "t": {
+        "raw": "1530ns",
+        "unit": "ns",
+        "v": 0.0000015300000000000002,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SCL"
+    },
+    {
+      "id": "E-MAIN-35",
+      "t": {
+        "raw": "1590ns",
+        "unit": "ns",
+        "v": 0.00000159,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SCL"
+    },
+    {
+      "id": "E-MAIN-36",
+      "t": {
+        "raw": "1610ns",
+        "unit": "ns",
+        "v": 0.00000161,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SDA"
+    },
+    {
+      "id": "E-MAIN-37",
+      "t": {
+        "raw": "1630ns",
+        "unit": "ns",
+        "v": 0.00000163,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SCL"
+    },
+    {
+      "id": "E-MAIN-38",
+      "t": {
+        "raw": "1690ns",
+        "unit": "ns",
+        "v": 0.0000016900000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SCL"
+    },
+    {
+      "id": "E-MAIN-39",
+      "t": {
+        "raw": "1710ns",
+        "unit": "ns",
+        "v": 0.0000017100000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SDA"
+    },
+    {
+      "id": "E-MAIN-40",
+      "t": {
+        "raw": "1730ns",
+        "unit": "ns",
+        "v": 0.0000017300000000000002,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SCL"
+    },
+    {
+      "id": "E-MAIN-41",
+      "t": {
+        "raw": "1790ns",
+        "unit": "ns",
+        "v": 0.00000179,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SCL"
+    },
+    {
+      "id": "E-MAIN-42",
+      "t": {
+        "raw": "1810ns",
+        "unit": "ns",
+        "v": 0.00000181,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SDA"
+    },
+    {
+      "id": "E-MAIN-43",
+      "t": {
+        "raw": "1830ns",
+        "unit": "ns",
+        "v": 0.00000183,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SCL"
+    },
+    {
+      "id": "E-MAIN-44",
+      "t": {
+        "raw": "1890ns",
+        "unit": "ns",
+        "v": 0.0000018900000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SCL"
+    },
+    {
+      "id": "E-MAIN-45",
+      "t": {
+        "raw": "1910ns",
+        "unit": "ns",
+        "v": 0.00000191,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SDA"
+    },
+    {
+      "id": "E-MAIN-46",
+      "t": {
+        "raw": "1930ns",
+        "unit": "ns",
+        "v": 0.00000193,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SCL"
+    },
+    {
+      "id": "E-MAIN-47",
+      "t": {
+        "raw": "1990ns",
+        "unit": "ns",
+        "v": 0.00000199,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SCL"
+    },
+    {
+      "id": "E-MAIN-48",
+      "t": {
+        "raw": "2030ns",
+        "unit": "ns",
+        "v": 0.00000203,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SCL"
+    },
+    {
+      "id": "E-MAIN-49",
+      "t": {
+        "raw": "2050ns",
+        "unit": "ns",
+        "v": 0.0000020500000000000003,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SDA"
+    }
+  ]
+}

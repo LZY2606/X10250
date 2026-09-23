@@ -1,0 +1,539 @@
+{
+  "format_version": "edgebench.capture/v1",
+  "source_file": "counter/spi-multics.json",
+  "sample_rate": {
+    "raw": "100MHz",
+    "unit": "MHz",
+    "v": 100000000,
+    "ok": true
+  },
+  "probes": [
+    {
+      "channel": "SCK",
+      "alias": "SCK",
+      "inverted_raw": "false",
+      "inverted": false,
+      "role": "sck",
+      "volt": {
+        "raw": "3.3V",
+        "unit": "V",
+        "v": 3.3,
+        "ok": true
+      }
+    },
+    {
+      "channel": "MOSI",
+      "alias": "MOSI",
+      "inverted_raw": "false",
+      "inverted": false,
+      "role": "mosi",
+      "volt": {
+        "raw": "3.3V",
+        "unit": "V",
+        "v": 3.3,
+        "ok": true
+      }
+    },
+    {
+      "channel": "CS_A",
+      "alias": "CS_A",
+      "inverted_raw": "false",
+      "inverted": false,
+      "role": "cs",
+      "volt": {
+        "raw": "3.3V",
+        "unit": "V",
+        "v": 3.3,
+        "ok": true
+      }
+    },
+    {
+      "channel": "CS_B",
+      "alias": "CS_B",
+      "inverted_raw": "false",
+      "inverted": false,
+      "role": "cs",
+      "volt": {
+        "raw": "3.3V",
+        "unit": "V",
+        "v": 3.3,
+        "ok": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "E-MAIN-0",
+      "t": {
+        "raw": "500ns",
+        "unit": "ns",
+        "v": 5.000000000000001e-7,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CS_A"
+    },
+    {
+      "id": "E-MAIN-1",
+      "t": {
+        "raw": "590ns",
+        "unit": "ns",
+        "v": 5.900000000000001e-7,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SCK"
+    },
+    {
+      "id": "E-MAIN-2",
+      "t": {
+        "raw": "630ns",
+        "unit": "ns",
+        "v": 6.3e-7,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "MOSI"
+    },
+    {
+      "id": "E-MAIN-3",
+      "t": {
+        "raw": "650ns",
+        "unit": "ns",
+        "v": 6.5e-7,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SCK"
+    },
+    {
+      "id": "E-MAIN-4",
+      "t": {
+        "raw": "690ns",
+        "unit": "ns",
+        "v": 6.900000000000001e-7,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SCK"
+    },
+    {
+      "id": "E-MAIN-5",
+      "t": {
+        "raw": "730ns",
+        "unit": "ns",
+        "v": 7.3e-7,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "MOSI"
+    },
+    {
+      "id": "E-MAIN-6",
+      "t": {
+        "raw": "750ns",
+        "unit": "ns",
+        "v": 7.5e-7,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SCK"
+    },
+    {
+      "id": "E-MAIN-7",
+      "t": {
+        "raw": "790ns",
+        "unit": "ns",
+        "v": 7.900000000000001e-7,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SCK"
+    },
+    {
+      "id": "E-MAIN-8",
+      "t": {
+        "raw": "830ns",
+        "unit": "ns",
+        "v": 8.300000000000001e-7,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "MOSI"
+    },
+    {
+      "id": "E-MAIN-9",
+      "t": {
+        "raw": "850ns",
+        "unit": "ns",
+        "v": 8.5e-7,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SCK"
+    },
+    {
+      "id": "E-MAIN-10",
+      "t": {
+        "raw": "890ns",
+        "unit": "ns",
+        "v": 8.900000000000001e-7,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SCK"
+    },
+    {
+      "id": "E-MAIN-11",
+      "t": {
+        "raw": "950ns",
+        "unit": "ns",
+        "v": 9.5e-7,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SCK"
+    },
+    {
+      "id": "E-MAIN-12",
+      "t": {
+        "raw": "990ns",
+        "unit": "ns",
+        "v": 9.9e-7,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SCK"
+    },
+    {
+      "id": "E-MAIN-13",
+      "t": {
+        "raw": "1050ns",
+        "unit": "ns",
+        "v": 0.0000010500000000000001,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SCK"
+    },
+    {
+      "id": "E-MAIN-14",
+      "t": {
+        "raw": "1090ns",
+        "unit": "ns",
+        "v": 0.0000010900000000000002,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SCK"
+    },
+    {
+      "id": "E-MAIN-15",
+      "t": {
+        "raw": "1130ns",
+        "unit": "ns",
+        "v": 0.00000113,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "MOSI"
+    },
+    {
+      "id": "E-MAIN-16",
+      "t": {
+        "raw": "1150ns",
+        "unit": "ns",
+        "v": 0.00000115,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SCK"
+    },
+    {
+      "id": "E-MAIN-17",
+      "t": {
+        "raw": "1190ns",
+        "unit": "ns",
+        "v": 0.00000119,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SCK"
+    },
+    {
+      "id": "E-MAIN-18",
+      "t": {
+        "raw": "1250ns",
+        "unit": "ns",
+        "v": 0.00000125,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SCK"
+    },
+    {
+      "id": "E-MAIN-19",
+      "t": {
+        "raw": "1290ns",
+        "unit": "ns",
+        "v": 0.0000012900000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SCK"
+    },
+    {
+      "id": "E-MAIN-20",
+      "t": {
+        "raw": "1340ns",
+        "unit": "ns",
+        "v": 0.00000134,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CS_A"
+    },
+    {
+      "id": "E-MAIN-21",
+      "t": {
+        "raw": "3000ns",
+        "unit": "ns",
+        "v": 0.000003,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CS_B"
+    },
+    {
+      "id": "E-MAIN-22",
+      "t": {
+        "raw": "3030ns",
+        "unit": "ns",
+        "v": 0.0000030300000000000002,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "MOSI"
+    },
+    {
+      "id": "E-MAIN-23",
+      "t": {
+        "raw": "3050ns",
+        "unit": "ns",
+        "v": 0.00000305,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SCK"
+    },
+    {
+      "id": "E-MAIN-24",
+      "t": {
+        "raw": "3090ns",
+        "unit": "ns",
+        "v": 0.00000309,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SCK"
+    },
+    {
+      "id": "E-MAIN-25",
+      "t": {
+        "raw": "3130ns",
+        "unit": "ns",
+        "v": 0.00000313,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "MOSI"
+    },
+    {
+      "id": "E-MAIN-26",
+      "t": {
+        "raw": "3150ns",
+        "unit": "ns",
+        "v": 0.0000031500000000000003,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SCK"
+    },
+    {
+      "id": "E-MAIN-27",
+      "t": {
+        "raw": "3190ns",
+        "unit": "ns",
+        "v": 0.0000031900000000000004,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SCK"
+    },
+    {
+      "id": "E-MAIN-28",
+      "t": {
+        "raw": "3250ns",
+        "unit": "ns",
+        "v": 0.0000032500000000000002,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SCK"
+    },
+    {
+      "id": "E-MAIN-29",
+      "t": {
+        "raw": "3290ns",
+        "unit": "ns",
+        "v": 0.0000032900000000000003,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SCK"
+    },
+    {
+      "id": "E-MAIN-30",
+      "t": {
+        "raw": "3350ns",
+        "unit": "ns",
+        "v": 0.00000335,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SCK"
+    },
+    {
+      "id": "E-MAIN-31",
+      "t": {
+        "raw": "3390ns",
+        "unit": "ns",
+        "v": 0.00000339,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SCK"
+    },
+    {
+      "id": "E-MAIN-32",
+      "t": {
+        "raw": "3430ns",
+        "unit": "ns",
+        "v": 0.00000343,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "MOSI"
+    },
+    {
+      "id": "E-MAIN-33",
+      "t": {
+        "raw": "3450ns",
+        "unit": "ns",
+        "v": 0.0000034500000000000004,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SCK"
+    },
+    {
+      "id": "E-MAIN-34",
+      "t": {
+        "raw": "3490ns",
+        "unit": "ns",
+        "v": 0.00000349,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SCK"
+    },
+    {
+      "id": "E-MAIN-35",
+      "t": {
+        "raw": "3530ns",
+        "unit": "ns",
+        "v": 0.00000353,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "MOSI"
+    },
+    {
+      "id": "E-MAIN-36",
+      "t": {
+        "raw": "3550ns",
+        "unit": "ns",
+        "v": 0.0000035500000000000003,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SCK"
+    },
+    {
+      "id": "E-MAIN-37",
+      "t": {
+        "raw": "3590ns",
+        "unit": "ns",
+        "v": 0.0000035900000000000004,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SCK"
+    },
+    {
+      "id": "E-MAIN-38",
+      "t": {
+        "raw": "3650ns",
+        "unit": "ns",
+        "v": 0.00000365,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SCK"
+    },
+    {
+      "id": "E-MAIN-39",
+      "t": {
+        "raw": "3690ns",
+        "unit": "ns",
+        "v": 0.0000036900000000000002,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SCK"
+    },
+    {
+      "id": "E-MAIN-40",
+      "t": {
+        "raw": "3750ns",
+        "unit": "ns",
+        "v": 0.00000375,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "SCK"
+    },
+    {
+      "id": "E-MAIN-41",
+      "t": {
+        "raw": "3790ns",
+        "unit": "ns",
+        "v": 0.00000379,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "SCK"
+    },
+    {
+      "id": "E-MAIN-42",
+      "t": {
+        "raw": "3840ns",
+        "unit": "ns",
+        "v": 0.0000038400000000000005,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CS_B"
+    }
+  ]
+}

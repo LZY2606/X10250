@@ -1,0 +1,4180 @@
+{
+  "format_version": "edgebench.capture/v1",
+  "source_file": "bench/main-edge-capture.jsonl",
+  "captured_at": "2026-09-23T09:00:00+09:00",
+  "sample_rate": {
+    "raw": "100MHz",
+    "unit": "MHz",
+    "v": 100000000,
+    "ok": true
+  },
+  "probes": [
+    {
+      "channel": "CH1",
+      "alias": "I2C_SCL",
+      "inverted_raw": "false",
+      "inverted": false,
+      "role": "scl",
+      "clk_pol_raw": "0",
+      "volt": {
+        "raw": "3.3V",
+        "unit": "V",
+        "v": 3.3,
+        "ok": true
+      }
+    },
+    {
+      "channel": "CH2",
+      "alias": "I2C_SDA",
+      "inverted_raw": "false",
+      "inverted": false,
+      "role": "sda",
+      "volt": {
+        "raw": "3.3V",
+        "unit": "V",
+        "v": 3.3,
+        "ok": true
+      }
+    },
+    {
+      "channel": "CH3",
+      "alias": "SPI_SCK",
+      "inverted_raw": "false",
+      "inverted": false,
+      "role": "sck",
+      "clk_pol_raw": "0",
+      "volt": {
+        "raw": "3.3V",
+        "unit": "V",
+        "v": 3.3,
+        "ok": true
+      }
+    },
+    {
+      "channel": "CH4",
+      "alias": "SPI_MOSI",
+      "inverted_raw": "false",
+      "inverted": false,
+      "role": "mosi",
+      "volt": {
+        "raw": "3.3V",
+        "unit": "V",
+        "v": 3.3,
+        "ok": true
+      }
+    },
+    {
+      "channel": "CH5",
+      "alias": "SPI_CS_TEMP",
+      "inverted_raw": "false",
+      "inverted": false,
+      "role": "cs",
+      "volt": {
+        "raw": "3.3V",
+        "unit": "V",
+        "v": 3.3,
+        "ok": true
+      }
+    },
+    {
+      "channel": "CH6",
+      "alias": "SPI_CS_EEPROM",
+      "inverted_raw": "false",
+      "inverted": false,
+      "role": "cs",
+      "volt": {
+        "raw": "3.3V",
+        "unit": "V",
+        "v": 3.3,
+        "ok": true
+      }
+    },
+    {
+      "channel": "CH7",
+      "alias": "SYNC_CLK",
+      "inverted_raw": "false",
+      "inverted": false,
+      "role": "sync",
+      "volt": {
+        "raw": "3.3V",
+        "unit": "V",
+        "v": 3.3,
+        "ok": true
+      }
+    },
+    {
+      "channel": "CH8",
+      "alias": "SYNC_DAT",
+      "inverted_raw": "true",
+      "inverted": true,
+      "role": "data",
+      "volt": {
+        "raw": "3.3V",
+        "unit": "V",
+        "v": 3.3,
+        "ok": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "E-MAIN-0",
+      "t": {
+        "raw": "200ns",
+        "unit": "ns",
+        "v": 2.0000000000000002e-7,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-1",
+      "t": {
+        "raw": "240ns",
+        "unit": "ns",
+        "v": 2.4000000000000003e-7,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-2",
+      "t": {
+        "raw": "310ns",
+        "unit": "ns",
+        "v": 3.1e-7,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-3",
+      "t": {
+        "raw": "330ns",
+        "unit": "ns",
+        "v": 3.3e-7,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-4",
+      "t": {
+        "raw": "390ns",
+        "unit": "ns",
+        "v": 3.9e-7,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-5",
+      "t": {
+        "raw": "410ns",
+        "unit": "ns",
+        "v": 4.1000000000000004e-7,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-6",
+      "t": {
+        "raw": "430ns",
+        "unit": "ns",
+        "v": 4.3e-7,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-7",
+      "t": {
+        "raw": "490ns",
+        "unit": "ns",
+        "v": 4.900000000000001e-7,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-8",
+      "t": {
+        "raw": "510ns",
+        "unit": "ns",
+        "v": 5.1e-7,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-9",
+      "t": {
+        "raw": "530ns",
+        "unit": "ns",
+        "v": 5.3e-7,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-10",
+      "t": {
+        "raw": "590ns",
+        "unit": "ns",
+        "v": 5.900000000000001e-7,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-11",
+      "t": {
+        "raw": "610ns",
+        "unit": "ns",
+        "v": 6.100000000000001e-7,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-12",
+      "t": {
+        "raw": "630ns",
+        "unit": "ns",
+        "v": 6.3e-7,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-13",
+      "t": {
+        "raw": "690ns",
+        "unit": "ns",
+        "v": 6.900000000000001e-7,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-14",
+      "t": {
+        "raw": "730ns",
+        "unit": "ns",
+        "v": 7.3e-7,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-15",
+      "t": {
+        "raw": "790ns",
+        "unit": "ns",
+        "v": 7.900000000000001e-7,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-16",
+      "t": {
+        "raw": "830ns",
+        "unit": "ns",
+        "v": 8.300000000000001e-7,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-17",
+      "t": {
+        "raw": "890ns",
+        "unit": "ns",
+        "v": 8.900000000000001e-7,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-18",
+      "t": {
+        "raw": "910ns",
+        "unit": "ns",
+        "v": 9.100000000000001e-7,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-19",
+      "t": {
+        "raw": "930ns",
+        "unit": "ns",
+        "v": 9.300000000000001e-7,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-20",
+      "t": {
+        "raw": "990ns",
+        "unit": "ns",
+        "v": 9.9e-7,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-21",
+      "t": {
+        "raw": "1030ns",
+        "unit": "ns",
+        "v": 0.00000103,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-22",
+      "t": {
+        "raw": "1090ns",
+        "unit": "ns",
+        "v": 0.0000010900000000000002,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-23",
+      "t": {
+        "raw": "1110ns",
+        "unit": "ns",
+        "v": 0.0000011100000000000002,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-24",
+      "t": {
+        "raw": "1130ns",
+        "unit": "ns",
+        "v": 0.00000113,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-25",
+      "t": {
+        "raw": "1190ns",
+        "unit": "ns",
+        "v": 0.00000119,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-26",
+      "t": {
+        "raw": "1230ns",
+        "unit": "ns",
+        "v": 0.00000123,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-27",
+      "t": {
+        "raw": "1290ns",
+        "unit": "ns",
+        "v": 0.0000012900000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-28",
+      "t": {
+        "raw": "1330ns",
+        "unit": "ns",
+        "v": 0.0000013300000000000002,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-29",
+      "t": {
+        "raw": "1390ns",
+        "unit": "ns",
+        "v": 0.00000139,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-30",
+      "t": {
+        "raw": "1430ns",
+        "unit": "ns",
+        "v": 0.00000143,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-31",
+      "t": {
+        "raw": "1490ns",
+        "unit": "ns",
+        "v": 0.0000014900000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-32",
+      "t": {
+        "raw": "1510ns",
+        "unit": "ns",
+        "v": 0.0000015100000000000002,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-33",
+      "t": {
+        "raw": "1530ns",
+        "unit": "ns",
+        "v": 0.0000015300000000000002,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-34",
+      "t": {
+        "raw": "1590ns",
+        "unit": "ns",
+        "v": 0.00000159,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-35",
+      "t": {
+        "raw": "1610ns",
+        "unit": "ns",
+        "v": 0.00000161,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-36",
+      "t": {
+        "raw": "1630ns",
+        "unit": "ns",
+        "v": 0.00000163,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-37",
+      "t": {
+        "raw": "1690ns",
+        "unit": "ns",
+        "v": 0.0000016900000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-38",
+      "t": {
+        "raw": "1730ns",
+        "unit": "ns",
+        "v": 0.0000017300000000000002,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-39",
+      "t": {
+        "raw": "1790ns",
+        "unit": "ns",
+        "v": 0.00000179,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-40",
+      "t": {
+        "raw": "1830ns",
+        "unit": "ns",
+        "v": 0.00000183,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-41",
+      "t": {
+        "raw": "1890ns",
+        "unit": "ns",
+        "v": 0.0000018900000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-42",
+      "t": {
+        "raw": "1910ns",
+        "unit": "ns",
+        "v": 0.00000191,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-43",
+      "t": {
+        "raw": "1930ns",
+        "unit": "ns",
+        "v": 0.00000193,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-44",
+      "t": {
+        "raw": "1990ns",
+        "unit": "ns",
+        "v": 0.00000199,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-45",
+      "t": {
+        "raw": "2010ns",
+        "unit": "ns",
+        "v": 0.0000020100000000000002,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-46",
+      "t": {
+        "raw": "2030ns",
+        "unit": "ns",
+        "v": 0.00000203,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-47",
+      "t": {
+        "raw": "2090ns",
+        "unit": "ns",
+        "v": 0.0000020900000000000003,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-48",
+      "t": {
+        "raw": "2130ns",
+        "unit": "ns",
+        "v": 0.00000213,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-49",
+      "t": {
+        "raw": "2190ns",
+        "unit": "ns",
+        "v": 0.00000219,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-50",
+      "t": {
+        "raw": "2310ns",
+        "unit": "ns",
+        "v": 0.0000023100000000000003,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-51",
+      "t": {
+        "raw": "2330ns",
+        "unit": "ns",
+        "v": 0.00000233,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-52",
+      "t": {
+        "raw": "2390ns",
+        "unit": "ns",
+        "v": 0.00000239,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-53",
+      "t": {
+        "raw": "2410ns",
+        "unit": "ns",
+        "v": 0.0000024100000000000002,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-54",
+      "t": {
+        "raw": "2430ns",
+        "unit": "ns",
+        "v": 0.00000243,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-55",
+      "t": {
+        "raw": "2490ns",
+        "unit": "ns",
+        "v": 0.0000024900000000000003,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-56",
+      "t": {
+        "raw": "2510ns",
+        "unit": "ns",
+        "v": 0.00000251,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-57",
+      "t": {
+        "raw": "2530ns",
+        "unit": "ns",
+        "v": 0.0000025300000000000003,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-58",
+      "t": {
+        "raw": "2590ns",
+        "unit": "ns",
+        "v": 0.00000259,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-59",
+      "t": {
+        "raw": "2610ns",
+        "unit": "ns",
+        "v": 0.00000261,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-60",
+      "t": {
+        "raw": "2630ns",
+        "unit": "ns",
+        "v": 0.0000026300000000000002,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-61",
+      "t": {
+        "raw": "2690ns",
+        "unit": "ns",
+        "v": 0.00000269,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-62",
+      "t": {
+        "raw": "2730ns",
+        "unit": "ns",
+        "v": 0.00000273,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-63",
+      "t": {
+        "raw": "2790ns",
+        "unit": "ns",
+        "v": 0.00000279,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-64",
+      "t": {
+        "raw": "2830ns",
+        "unit": "ns",
+        "v": 0.00000283,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-65",
+      "t": {
+        "raw": "2890ns",
+        "unit": "ns",
+        "v": 0.0000028900000000000003,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-66",
+      "t": {
+        "raw": "2910ns",
+        "unit": "ns",
+        "v": 0.00000291,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-67",
+      "t": {
+        "raw": "2930ns",
+        "unit": "ns",
+        "v": 0.0000029300000000000003,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-68",
+      "t": {
+        "raw": "2990ns",
+        "unit": "ns",
+        "v": 0.00000299,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-69",
+      "t": {
+        "raw": "3030ns",
+        "unit": "ns",
+        "v": 0.0000030300000000000002,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-70",
+      "t": {
+        "raw": "3090ns",
+        "unit": "ns",
+        "v": 0.00000309,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-71",
+      "t": {
+        "raw": "3110ns",
+        "unit": "ns",
+        "v": 0.0000031100000000000003,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-72",
+      "t": {
+        "raw": "3130ns",
+        "unit": "ns",
+        "v": 0.00000313,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-73",
+      "t": {
+        "raw": "3190ns",
+        "unit": "ns",
+        "v": 0.0000031900000000000004,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-74",
+      "t": {
+        "raw": "3230ns",
+        "unit": "ns",
+        "v": 0.00000323,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-75",
+      "t": {
+        "raw": "3290ns",
+        "unit": "ns",
+        "v": 0.0000032900000000000003,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-76",
+      "t": {
+        "raw": "3310ns",
+        "unit": "ns",
+        "v": 0.00000331,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-77",
+      "t": {
+        "raw": "3330ns",
+        "unit": "ns",
+        "v": 0.0000033300000000000003,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-78",
+      "t": {
+        "raw": "3390ns",
+        "unit": "ns",
+        "v": 0.00000339,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-79",
+      "t": {
+        "raw": "3430ns",
+        "unit": "ns",
+        "v": 0.00000343,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-80",
+      "t": {
+        "raw": "3490ns",
+        "unit": "ns",
+        "v": 0.00000349,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-81",
+      "t": {
+        "raw": "3530ns",
+        "unit": "ns",
+        "v": 0.00000353,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-82",
+      "t": {
+        "raw": "3590ns",
+        "unit": "ns",
+        "v": 0.0000035900000000000004,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-83",
+      "t": {
+        "raw": "3630ns",
+        "unit": "ns",
+        "v": 0.0000036300000000000004,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-84",
+      "t": {
+        "raw": "3690ns",
+        "unit": "ns",
+        "v": 0.0000036900000000000002,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-85",
+      "t": {
+        "raw": "3730ns",
+        "unit": "ns",
+        "v": 0.0000037300000000000003,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-86",
+      "t": {
+        "raw": "3790ns",
+        "unit": "ns",
+        "v": 0.00000379,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-87",
+      "t": {
+        "raw": "3830ns",
+        "unit": "ns",
+        "v": 0.000003830000000000001,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-88",
+      "t": {
+        "raw": "3890ns",
+        "unit": "ns",
+        "v": 0.00000389,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-89",
+      "t": {
+        "raw": "3930ns",
+        "unit": "ns",
+        "v": 0.0000039300000000000005,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-90",
+      "t": {
+        "raw": "3990ns",
+        "unit": "ns",
+        "v": 0.00000399,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-91",
+      "t": {
+        "raw": "4030ns",
+        "unit": "ns",
+        "v": 0.00000403,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-92",
+      "t": {
+        "raw": "4090ns",
+        "unit": "ns",
+        "v": 0.000004090000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-93",
+      "t": {
+        "raw": "4130ns",
+        "unit": "ns",
+        "v": 0.00000413,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-94",
+      "t": {
+        "raw": "4300ns",
+        "unit": "ns",
+        "v": 0.0000043,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-95",
+      "t": {
+        "raw": "4340ns",
+        "unit": "ns",
+        "v": 0.00000434,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-96",
+      "t": {
+        "raw": "4430ns",
+        "unit": "ns",
+        "v": 0.00000443,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-97",
+      "t": {
+        "raw": "4490ns",
+        "unit": "ns",
+        "v": 0.00000449,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-98",
+      "t": {
+        "raw": "4510ns",
+        "unit": "ns",
+        "v": 0.00000451,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-99",
+      "t": {
+        "raw": "4530ns",
+        "unit": "ns",
+        "v": 0.000004530000000000001,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-100",
+      "t": {
+        "raw": "4590ns",
+        "unit": "ns",
+        "v": 0.00000459,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-101",
+      "t": {
+        "raw": "4610ns",
+        "unit": "ns",
+        "v": 0.00000461,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-102",
+      "t": {
+        "raw": "4630ns",
+        "unit": "ns",
+        "v": 0.0000046300000000000006,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-103",
+      "t": {
+        "raw": "4690ns",
+        "unit": "ns",
+        "v": 0.00000469,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-104",
+      "t": {
+        "raw": "4710ns",
+        "unit": "ns",
+        "v": 0.000004710000000000001,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-105",
+      "t": {
+        "raw": "4730ns",
+        "unit": "ns",
+        "v": 0.0000047300000000000005,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-106",
+      "t": {
+        "raw": "4790ns",
+        "unit": "ns",
+        "v": 0.00000479,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-107",
+      "t": {
+        "raw": "4810ns",
+        "unit": "ns",
+        "v": 0.0000048100000000000005,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-108",
+      "t": {
+        "raw": "4830ns",
+        "unit": "ns",
+        "v": 0.00000483,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-109",
+      "t": {
+        "raw": "4890ns",
+        "unit": "ns",
+        "v": 0.000004890000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-110",
+      "t": {
+        "raw": "4930ns",
+        "unit": "ns",
+        "v": 0.00000493,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-111",
+      "t": {
+        "raw": "4990ns",
+        "unit": "ns",
+        "v": 0.0000049900000000000005,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-112",
+      "t": {
+        "raw": "5030ns",
+        "unit": "ns",
+        "v": 0.00000503,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-113",
+      "t": {
+        "raw": "5090ns",
+        "unit": "ns",
+        "v": 0.00000509,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-114",
+      "t": {
+        "raw": "5130ns",
+        "unit": "ns",
+        "v": 0.00000513,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-115",
+      "t": {
+        "raw": "5190ns",
+        "unit": "ns",
+        "v": 0.00000519,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-116",
+      "t": {
+        "raw": "5230ns",
+        "unit": "ns",
+        "v": 0.000005230000000000001,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-117",
+      "t": {
+        "raw": "5290ns",
+        "unit": "ns",
+        "v": 0.00000529,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-118",
+      "t": {
+        "raw": "5830ns",
+        "unit": "ns",
+        "v": 0.00000583,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-119",
+      "t": {
+        "raw": "5890ns",
+        "unit": "ns",
+        "v": 0.00000589,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-120",
+      "t": {
+        "raw": "5930ns",
+        "unit": "ns",
+        "v": 0.00000593,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-121",
+      "t": {
+        "raw": "5990ns",
+        "unit": "ns",
+        "v": 0.00000599,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-122",
+      "t": {
+        "raw": "6030ns",
+        "unit": "ns",
+        "v": 0.000006030000000000001,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-123",
+      "t": {
+        "raw": "6090ns",
+        "unit": "ns",
+        "v": 0.00000609,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-124",
+      "t": {
+        "raw": "6110ns",
+        "unit": "ns",
+        "v": 0.000006110000000000001,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-125",
+      "t": {
+        "raw": "6130ns",
+        "unit": "ns",
+        "v": 0.000006130000000000001,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-126",
+      "t": {
+        "raw": "6190ns",
+        "unit": "ns",
+        "v": 0.00000619,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-127",
+      "t": {
+        "raw": "6210ns",
+        "unit": "ns",
+        "v": 0.000006210000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-128",
+      "t": {
+        "raw": "6230ns",
+        "unit": "ns",
+        "v": 0.0000062300000000000005,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-129",
+      "t": {
+        "raw": "6290ns",
+        "unit": "ns",
+        "v": 0.000006290000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-130",
+      "t": {
+        "raw": "6330ns",
+        "unit": "ns",
+        "v": 0.00000633,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-131",
+      "t": {
+        "raw": "6390ns",
+        "unit": "ns",
+        "v": 0.000006390000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-132",
+      "t": {
+        "raw": "6430ns",
+        "unit": "ns",
+        "v": 0.00000643,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-133",
+      "t": {
+        "raw": "6490ns",
+        "unit": "ns",
+        "v": 0.0000064900000000000005,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-134",
+      "t": {
+        "raw": "6510ns",
+        "unit": "ns",
+        "v": 0.00000651,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-135",
+      "t": {
+        "raw": "6530ns",
+        "unit": "ns",
+        "v": 0.00000653,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-136",
+      "t": {
+        "raw": "6590ns",
+        "unit": "ns",
+        "v": 0.0000065900000000000004,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-137",
+      "t": {
+        "raw": "6610ns",
+        "unit": "ns",
+        "v": 0.00000661,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-138",
+      "t": {
+        "raw": "6630ns",
+        "unit": "ns",
+        "v": 0.00000663,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-139",
+      "t": {
+        "raw": "6690ns",
+        "unit": "ns",
+        "v": 0.00000669,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-140",
+      "t": {
+        "raw": "6730ns",
+        "unit": "ns",
+        "v": 0.000006730000000000001,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-141",
+      "t": {
+        "raw": "6790ns",
+        "unit": "ns",
+        "v": 0.00000679,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-142",
+      "t": {
+        "raw": "6830ns",
+        "unit": "ns",
+        "v": 0.000006830000000000001,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-143",
+      "t": {
+        "raw": "6850ns",
+        "unit": "ns",
+        "v": 0.0000068500000000000005,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-144",
+      "t": {
+        "raw": "7100ns",
+        "unit": "ns",
+        "v": 0.000007100000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-145",
+      "t": {
+        "raw": "7140ns",
+        "unit": "ns",
+        "v": 0.00000714,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-146",
+      "t": {
+        "raw": "7210ns",
+        "unit": "ns",
+        "v": 0.0000072100000000000004,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-147",
+      "t": {
+        "raw": "7230ns",
+        "unit": "ns",
+        "v": 0.00000723,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-148",
+      "t": {
+        "raw": "7290ns",
+        "unit": "ns",
+        "v": 0.0000072900000000000005,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-149",
+      "t": {
+        "raw": "7310ns",
+        "unit": "ns",
+        "v": 0.00000731,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-150",
+      "t": {
+        "raw": "7330ns",
+        "unit": "ns",
+        "v": 0.00000733,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-151",
+      "t": {
+        "raw": "7390ns",
+        "unit": "ns",
+        "v": 0.00000739,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-152",
+      "t": {
+        "raw": "7430ns",
+        "unit": "ns",
+        "v": 0.000007430000000000001,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-153",
+      "t": {
+        "raw": "7490ns",
+        "unit": "ns",
+        "v": 0.00000749,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-154",
+      "t": {
+        "raw": "7510ns",
+        "unit": "ns",
+        "v": 0.00000751,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-155",
+      "t": {
+        "raw": "7530ns",
+        "unit": "ns",
+        "v": 0.000007530000000000001,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-156",
+      "t": {
+        "raw": "7590ns",
+        "unit": "ns",
+        "v": 0.00000759,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-157",
+      "t": {
+        "raw": "7610ns",
+        "unit": "ns",
+        "v": 0.000007610000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-158",
+      "t": {
+        "raw": "7630ns",
+        "unit": "ns",
+        "v": 0.00000763,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-159",
+      "t": {
+        "raw": "7690ns",
+        "unit": "ns",
+        "v": 0.000007690000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-160",
+      "t": {
+        "raw": "7730ns",
+        "unit": "ns",
+        "v": 0.00000773,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-161",
+      "t": {
+        "raw": "7790ns",
+        "unit": "ns",
+        "v": 0.00000779,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-162",
+      "t": {
+        "raw": "7830ns",
+        "unit": "ns",
+        "v": 0.000007830000000000001,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-163",
+      "t": {
+        "raw": "7890ns",
+        "unit": "ns",
+        "v": 0.00000789,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-164",
+      "t": {
+        "raw": "7930ns",
+        "unit": "ns",
+        "v": 0.00000793,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-165",
+      "t": {
+        "raw": "7990ns",
+        "unit": "ns",
+        "v": 0.00000799,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-166",
+      "t": {
+        "raw": "8030ns",
+        "unit": "ns",
+        "v": 0.000008030000000000001,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-167",
+      "t": {
+        "raw": "8090ns",
+        "unit": "ns",
+        "v": 0.00000809,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-168",
+      "t": {
+        "raw": "8130ns",
+        "unit": "ns",
+        "v": 0.00000813,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-169",
+      "t": {
+        "raw": "8150ns",
+        "unit": "ns",
+        "v": 0.00000815,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-170",
+      "t": {
+        "raw": "14100ns",
+        "unit": "ns",
+        "v": 0.0000141,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-171",
+      "t": {
+        "raw": "14140ns",
+        "unit": "ns",
+        "v": 0.00001414,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-172",
+      "t": {
+        "raw": "14210ns",
+        "unit": "ns",
+        "v": 0.000014210000000000001,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-173",
+      "t": {
+        "raw": "14230ns",
+        "unit": "ns",
+        "v": 0.000014230000000000001,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-174",
+      "t": {
+        "raw": "14290ns",
+        "unit": "ns",
+        "v": 0.00001429,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-175",
+      "t": {
+        "raw": "14310ns",
+        "unit": "ns",
+        "v": 0.00001431,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-176",
+      "t": {
+        "raw": "14330ns",
+        "unit": "ns",
+        "v": 0.000014330000000000002,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-177",
+      "t": {
+        "raw": "14390ns",
+        "unit": "ns",
+        "v": 0.000014390000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-178",
+      "t": {
+        "raw": "14430ns",
+        "unit": "ns",
+        "v": 0.00001443,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-179",
+      "t": {
+        "raw": "14490ns",
+        "unit": "ns",
+        "v": 0.00001449,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-180",
+      "t": {
+        "raw": "14510ns",
+        "unit": "ns",
+        "v": 0.000014510000000000002,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-181",
+      "t": {
+        "raw": "14530ns",
+        "unit": "ns",
+        "v": 0.000014530000000000001,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-182",
+      "t": {
+        "raw": "14590ns",
+        "unit": "ns",
+        "v": 0.000014590000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-183",
+      "t": {
+        "raw": "14610ns",
+        "unit": "ns",
+        "v": 0.00001461,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-184",
+      "t": {
+        "raw": "14630ns",
+        "unit": "ns",
+        "v": 0.00001463,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-185",
+      "t": {
+        "raw": "14690ns",
+        "unit": "ns",
+        "v": 0.000014690000000000002,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-186",
+      "t": {
+        "raw": "14730ns",
+        "unit": "ns",
+        "v": 0.000014730000000000001,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-187",
+      "t": {
+        "raw": "14790ns",
+        "unit": "ns",
+        "v": 0.00001479,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-188",
+      "t": {
+        "raw": "14830ns",
+        "unit": "ns",
+        "v": 0.00001483,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-189",
+      "t": {
+        "raw": "14890ns",
+        "unit": "ns",
+        "v": 0.000014890000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-190",
+      "t": {
+        "raw": "14910ns",
+        "unit": "ns",
+        "v": 0.000014910000000000001,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-191",
+      "t": {
+        "raw": "14930ns",
+        "unit": "ns",
+        "v": 0.000014930000000000001,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-192",
+      "t": {
+        "raw": "14990ns",
+        "unit": "ns",
+        "v": 0.00001499,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-193",
+      "t": {
+        "raw": "15010ns",
+        "unit": "ns",
+        "v": 0.00001501,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-194",
+      "t": {
+        "raw": "15030ns",
+        "unit": "ns",
+        "v": 0.00001503,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-195",
+      "t": {
+        "raw": "15090ns",
+        "unit": "ns",
+        "v": 0.000015090000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-196",
+      "t": {
+        "raw": "15130ns",
+        "unit": "ns",
+        "v": 0.00001513,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-197",
+      "t": {
+        "raw": "15150ns",
+        "unit": "ns",
+        "v": 0.00001515,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-198",
+      "t": {
+        "raw": "15400ns",
+        "unit": "ns",
+        "v": 0.0000154,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-199",
+      "t": {
+        "raw": "15440ns",
+        "unit": "ns",
+        "v": 0.00001544,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-200",
+      "t": {
+        "raw": "15510ns",
+        "unit": "ns",
+        "v": 0.000015510000000000002,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-201",
+      "t": {
+        "raw": "15530ns",
+        "unit": "ns",
+        "v": 0.000015530000000000002,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-202",
+      "t": {
+        "raw": "15590ns",
+        "unit": "ns",
+        "v": 0.00001559,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-203",
+      "t": {
+        "raw": "15630ns",
+        "unit": "ns",
+        "v": 0.00001563,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-204",
+      "t": {
+        "raw": "15690ns",
+        "unit": "ns",
+        "v": 0.00001569,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-205",
+      "t": {
+        "raw": "15710ns",
+        "unit": "ns",
+        "v": 0.00001571,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-206",
+      "t": {
+        "raw": "15730ns",
+        "unit": "ns",
+        "v": 0.00001573,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-207",
+      "t": {
+        "raw": "15790ns",
+        "unit": "ns",
+        "v": 0.00001579,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-208",
+      "t": {
+        "raw": "15830ns",
+        "unit": "ns",
+        "v": 0.000015830000000000003,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-209",
+      "t": {
+        "raw": "15890ns",
+        "unit": "ns",
+        "v": 0.000015890000000000002,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-210",
+      "t": {
+        "raw": "15930ns",
+        "unit": "ns",
+        "v": 0.00001593,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-211",
+      "t": {
+        "raw": "15990ns",
+        "unit": "ns",
+        "v": 0.00001599,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-212",
+      "t": {
+        "raw": "16010ns",
+        "unit": "ns",
+        "v": 0.00001601,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-213",
+      "t": {
+        "raw": "16030ns",
+        "unit": "ns",
+        "v": 0.00001603,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-214",
+      "t": {
+        "raw": "16090ns",
+        "unit": "ns",
+        "v": 0.00001609,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-215",
+      "t": {
+        "raw": "16110ns",
+        "unit": "ns",
+        "v": 0.00001611,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-216",
+      "t": {
+        "raw": "16130ns",
+        "unit": "ns",
+        "v": 0.00001613,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-217",
+      "t": {
+        "raw": "16190ns",
+        "unit": "ns",
+        "v": 0.000016190000000000003,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-218",
+      "t": {
+        "raw": "16230ns",
+        "unit": "ns",
+        "v": 0.000016230000000000002,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-219",
+      "t": {
+        "raw": "16290ns",
+        "unit": "ns",
+        "v": 0.00001629,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-220",
+      "t": {
+        "raw": "16330ns",
+        "unit": "ns",
+        "v": 0.00001633,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-221",
+      "t": {
+        "raw": "16390ns",
+        "unit": "ns",
+        "v": 0.00001639,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-222",
+      "t": {
+        "raw": "16430ns",
+        "unit": "ns",
+        "v": 0.00001643,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-223",
+      "t": {
+        "raw": "16490ns",
+        "unit": "ns",
+        "v": 0.00001649,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-224",
+      "t": {
+        "raw": "16530ns",
+        "unit": "ns",
+        "v": 0.000016530000000000003,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-225",
+      "t": {
+        "raw": "16590ns",
+        "unit": "ns",
+        "v": 0.000016590000000000002,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-226",
+      "t": {
+        "raw": "16630ns",
+        "unit": "ns",
+        "v": 0.000016630000000000002,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-227",
+      "t": {
+        "raw": "16690ns",
+        "unit": "ns",
+        "v": 0.00001669,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-228",
+      "t": {
+        "raw": "16710ns",
+        "unit": "ns",
+        "v": 0.00001671,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH2"
+    },
+    {
+      "id": "E-MAIN-229",
+      "t": {
+        "raw": "16730ns",
+        "unit": "ns",
+        "v": 0.00001673,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-230",
+      "t": {
+        "raw": "16790ns",
+        "unit": "ns",
+        "v": 0.00001679,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-231",
+      "t": {
+        "raw": "16830ns",
+        "unit": "ns",
+        "v": 0.00001683,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-232",
+      "t": {
+        "raw": "16890ns",
+        "unit": "ns",
+        "v": 0.000016890000000000003,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-233",
+      "t": {
+        "raw": "16930ns",
+        "unit": "ns",
+        "v": 0.000016930000000000002,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH1"
+    },
+    {
+      "id": "E-MAIN-234",
+      "t": {
+        "raw": "8000ns",
+        "unit": "ns",
+        "v": 0.000008000000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH5"
+    },
+    {
+      "id": "E-MAIN-235",
+      "t": {
+        "raw": "8090ns",
+        "unit": "ns",
+        "v": 0.00000809,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-236",
+      "t": {
+        "raw": "8130ns",
+        "unit": "ns",
+        "v": 0.00000813,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH4"
+    },
+    {
+      "id": "E-MAIN-237",
+      "t": {
+        "raw": "8150ns",
+        "unit": "ns",
+        "v": 0.00000815,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-238",
+      "t": {
+        "raw": "8190ns",
+        "unit": "ns",
+        "v": 0.000008190000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-239",
+      "t": {
+        "raw": "8230ns",
+        "unit": "ns",
+        "v": 0.00000823,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH4"
+    },
+    {
+      "id": "E-MAIN-240",
+      "t": {
+        "raw": "8250ns",
+        "unit": "ns",
+        "v": 0.00000825,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-241",
+      "t": {
+        "raw": "8290ns",
+        "unit": "ns",
+        "v": 0.00000829,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-242",
+      "t": {
+        "raw": "8350ns",
+        "unit": "ns",
+        "v": 0.00000835,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-243",
+      "t": {
+        "raw": "8390ns",
+        "unit": "ns",
+        "v": 0.000008390000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-244",
+      "t": {
+        "raw": "8430ns",
+        "unit": "ns",
+        "v": 0.00000843,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH4"
+    },
+    {
+      "id": "E-MAIN-245",
+      "t": {
+        "raw": "8450ns",
+        "unit": "ns",
+        "v": 0.00000845,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-246",
+      "t": {
+        "raw": "8490ns",
+        "unit": "ns",
+        "v": 0.00000849,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-247",
+      "t": {
+        "raw": "8550ns",
+        "unit": "ns",
+        "v": 0.000008550000000000001,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-248",
+      "t": {
+        "raw": "8590ns",
+        "unit": "ns",
+        "v": 0.00000859,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-249",
+      "t": {
+        "raw": "8630ns",
+        "unit": "ns",
+        "v": 0.00000863,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH4"
+    },
+    {
+      "id": "E-MAIN-250",
+      "t": {
+        "raw": "8650ns",
+        "unit": "ns",
+        "v": 0.00000865,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-251",
+      "t": {
+        "raw": "8690ns",
+        "unit": "ns",
+        "v": 0.00000869,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-252",
+      "t": {
+        "raw": "8730ns",
+        "unit": "ns",
+        "v": 0.000008730000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH4"
+    },
+    {
+      "id": "E-MAIN-253",
+      "t": {
+        "raw": "8750ns",
+        "unit": "ns",
+        "v": 0.000008750000000000001,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-254",
+      "t": {
+        "raw": "8790ns",
+        "unit": "ns",
+        "v": 0.00000879,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-255",
+      "t": {
+        "raw": "8830ns",
+        "unit": "ns",
+        "v": 0.00000883,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH4"
+    },
+    {
+      "id": "E-MAIN-256",
+      "t": {
+        "raw": "8850ns",
+        "unit": "ns",
+        "v": 0.00000885,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-257",
+      "t": {
+        "raw": "8890ns",
+        "unit": "ns",
+        "v": 0.000008890000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-258",
+      "t": {
+        "raw": "8950ns",
+        "unit": "ns",
+        "v": 0.00000895,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-259",
+      "t": {
+        "raw": "8990ns",
+        "unit": "ns",
+        "v": 0.00000899,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-260",
+      "t": {
+        "raw": "9030ns",
+        "unit": "ns",
+        "v": 0.00000903,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH4"
+    },
+    {
+      "id": "E-MAIN-261",
+      "t": {
+        "raw": "9050ns",
+        "unit": "ns",
+        "v": 0.00000905,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-262",
+      "t": {
+        "raw": "9090ns",
+        "unit": "ns",
+        "v": 0.000009090000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-263",
+      "t": {
+        "raw": "9130ns",
+        "unit": "ns",
+        "v": 0.00000913,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH4"
+    },
+    {
+      "id": "E-MAIN-264",
+      "t": {
+        "raw": "9150ns",
+        "unit": "ns",
+        "v": 0.00000915,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-265",
+      "t": {
+        "raw": "9190ns",
+        "unit": "ns",
+        "v": 0.00000919,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-266",
+      "t": {
+        "raw": "9240ns",
+        "unit": "ns",
+        "v": 0.000009240000000000001,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH5"
+    },
+    {
+      "id": "E-MAIN-267",
+      "t": {
+        "raw": "10500ns",
+        "unit": "ns",
+        "v": 0.000010500000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH6"
+    },
+    {
+      "id": "E-MAIN-268",
+      "t": {
+        "raw": "10550ns",
+        "unit": "ns",
+        "v": 0.00001055,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-269",
+      "t": {
+        "raw": "10590ns",
+        "unit": "ns",
+        "v": 0.00001059,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-270",
+      "t": {
+        "raw": "10630ns",
+        "unit": "ns",
+        "v": 0.00001063,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH4"
+    },
+    {
+      "id": "E-MAIN-271",
+      "t": {
+        "raw": "10650ns",
+        "unit": "ns",
+        "v": 0.000010650000000000001,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-272",
+      "t": {
+        "raw": "10690ns",
+        "unit": "ns",
+        "v": 0.000010690000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-273",
+      "t": {
+        "raw": "10730ns",
+        "unit": "ns",
+        "v": 0.00001073,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH4"
+    },
+    {
+      "id": "E-MAIN-274",
+      "t": {
+        "raw": "10750ns",
+        "unit": "ns",
+        "v": 0.00001075,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-275",
+      "t": {
+        "raw": "10790ns",
+        "unit": "ns",
+        "v": 0.00001079,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-276",
+      "t": {
+        "raw": "10830ns",
+        "unit": "ns",
+        "v": 0.000010830000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH4"
+    },
+    {
+      "id": "E-MAIN-277",
+      "t": {
+        "raw": "10850ns",
+        "unit": "ns",
+        "v": 0.000010850000000000001,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-278",
+      "t": {
+        "raw": "10890ns",
+        "unit": "ns",
+        "v": 0.00001089,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-279",
+      "t": {
+        "raw": "10950ns",
+        "unit": "ns",
+        "v": 0.00001095,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-280",
+      "t": {
+        "raw": "10990ns",
+        "unit": "ns",
+        "v": 0.000010990000000000002,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-281",
+      "t": {
+        "raw": "11030ns",
+        "unit": "ns",
+        "v": 0.000011030000000000001,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH4"
+    },
+    {
+      "id": "E-MAIN-282",
+      "t": {
+        "raw": "11050ns",
+        "unit": "ns",
+        "v": 0.000011050000000000001,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-283",
+      "t": {
+        "raw": "11090ns",
+        "unit": "ns",
+        "v": 0.00001109,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-284",
+      "t": {
+        "raw": "11130ns",
+        "unit": "ns",
+        "v": 0.00001113,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH4"
+    },
+    {
+      "id": "E-MAIN-285",
+      "t": {
+        "raw": "11150ns",
+        "unit": "ns",
+        "v": 0.00001115,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-286",
+      "t": {
+        "raw": "11190ns",
+        "unit": "ns",
+        "v": 0.000011190000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-287",
+      "t": {
+        "raw": "11230ns",
+        "unit": "ns",
+        "v": 0.000011230000000000001,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH4"
+    },
+    {
+      "id": "E-MAIN-288",
+      "t": {
+        "raw": "11250ns",
+        "unit": "ns",
+        "v": 0.00001125,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-289",
+      "t": {
+        "raw": "11290ns",
+        "unit": "ns",
+        "v": 0.00001129,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-290",
+      "t": {
+        "raw": "11330ns",
+        "unit": "ns",
+        "v": 0.00001133,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH4"
+    },
+    {
+      "id": "E-MAIN-291",
+      "t": {
+        "raw": "11350ns",
+        "unit": "ns",
+        "v": 0.000011350000000000001,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-292",
+      "t": {
+        "raw": "11390ns",
+        "unit": "ns",
+        "v": 0.000011390000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-293",
+      "t": {
+        "raw": "11450ns",
+        "unit": "ns",
+        "v": 0.00001145,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-294",
+      "t": {
+        "raw": "11490ns",
+        "unit": "ns",
+        "v": 0.00001149,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-295",
+      "t": {
+        "raw": "11530ns",
+        "unit": "ns",
+        "v": 0.000011530000000000001,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH4"
+    },
+    {
+      "id": "E-MAIN-296",
+      "t": {
+        "raw": "11550ns",
+        "unit": "ns",
+        "v": 0.000011550000000000001,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-297",
+      "t": {
+        "raw": "11590ns",
+        "unit": "ns",
+        "v": 0.00001159,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-298",
+      "t": {
+        "raw": "11650ns",
+        "unit": "ns",
+        "v": 0.00001165,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-299",
+      "t": {
+        "raw": "11690ns",
+        "unit": "ns",
+        "v": 0.00001169,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-300",
+      "t": {
+        "raw": "11750ns",
+        "unit": "ns",
+        "v": 0.000011750000000000001,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-301",
+      "t": {
+        "raw": "11790ns",
+        "unit": "ns",
+        "v": 0.00001179,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-302",
+      "t": {
+        "raw": "11850ns",
+        "unit": "ns",
+        "v": 0.00001185,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-303",
+      "t": {
+        "raw": "11890ns",
+        "unit": "ns",
+        "v": 0.000011890000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-304",
+      "t": {
+        "raw": "11930ns",
+        "unit": "ns",
+        "v": 0.000011930000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH4"
+    },
+    {
+      "id": "E-MAIN-305",
+      "t": {
+        "raw": "11950ns",
+        "unit": "ns",
+        "v": 0.00001195,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-306",
+      "t": {
+        "raw": "11990ns",
+        "unit": "ns",
+        "v": 0.00001199,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-307",
+      "t": {
+        "raw": "12050ns",
+        "unit": "ns",
+        "v": 0.000012050000000000002,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-308",
+      "t": {
+        "raw": "12090ns",
+        "unit": "ns",
+        "v": 0.000012090000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-309",
+      "t": {
+        "raw": "12140ns",
+        "unit": "ns",
+        "v": 0.00001214,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH6"
+    },
+    {
+      "id": "E-MAIN-310",
+      "t": {
+        "raw": "13000ns",
+        "unit": "ns",
+        "v": 0.000013000000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH5"
+    },
+    {
+      "id": "E-MAIN-311",
+      "t": {
+        "raw": "13050ns",
+        "unit": "ns",
+        "v": 0.00001305,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-312",
+      "t": {
+        "raw": "13090ns",
+        "unit": "ns",
+        "v": 0.00001309,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-313",
+      "t": {
+        "raw": "13130ns",
+        "unit": "ns",
+        "v": 0.000013130000000000001,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH4"
+    },
+    {
+      "id": "E-MAIN-314",
+      "t": {
+        "raw": "13150ns",
+        "unit": "ns",
+        "v": 0.000013150000000000001,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-315",
+      "t": {
+        "raw": "13190ns",
+        "unit": "ns",
+        "v": 0.00001319,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-316",
+      "t": {
+        "raw": "13250ns",
+        "unit": "ns",
+        "v": 0.00001325,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-317",
+      "t": {
+        "raw": "13290ns",
+        "unit": "ns",
+        "v": 0.000013290000000000002,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-318",
+      "t": {
+        "raw": "13330ns",
+        "unit": "ns",
+        "v": 0.000013330000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH4"
+    },
+    {
+      "id": "E-MAIN-319",
+      "t": {
+        "raw": "13350ns",
+        "unit": "ns",
+        "v": 0.000013350000000000001,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-320",
+      "t": {
+        "raw": "13390ns",
+        "unit": "ns",
+        "v": 0.00001339,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-321",
+      "t": {
+        "raw": "13430ns",
+        "unit": "ns",
+        "v": 0.00001343,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH4"
+    },
+    {
+      "id": "E-MAIN-322",
+      "t": {
+        "raw": "13450ns",
+        "unit": "ns",
+        "v": 0.000013450000000000002,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-323",
+      "t": {
+        "raw": "13490ns",
+        "unit": "ns",
+        "v": 0.000013490000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-324",
+      "t": {
+        "raw": "13550ns",
+        "unit": "ns",
+        "v": 0.00001355,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-325",
+      "t": {
+        "raw": "13590ns",
+        "unit": "ns",
+        "v": 0.00001359,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-326",
+      "t": {
+        "raw": "13650ns",
+        "unit": "ns",
+        "v": 0.000013650000000000001,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-327",
+      "t": {
+        "raw": "13690ns",
+        "unit": "ns",
+        "v": 0.000013690000000000001,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-328",
+      "t": {
+        "raw": "13730ns",
+        "unit": "ns",
+        "v": 0.00001373,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH4"
+    },
+    {
+      "id": "E-MAIN-329",
+      "t": {
+        "raw": "13750ns",
+        "unit": "ns",
+        "v": 0.00001375,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-330",
+      "t": {
+        "raw": "13790ns",
+        "unit": "ns",
+        "v": 0.00001379,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH3"
+    },
+    {
+      "id": "E-MAIN-331",
+      "t": {
+        "raw": "13840ns",
+        "unit": "ns",
+        "v": 0.000013840000000000001,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH5"
+    },
+    {
+      "id": "E-MAIN-332",
+      "t": {
+        "raw": "15540ns",
+        "unit": "ns",
+        "v": 0.00001554,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH7"
+    },
+    {
+      "id": "E-MAIN-333",
+      "t": {
+        "raw": "15580ns",
+        "unit": "ns",
+        "v": 0.00001558,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH8"
+    },
+    {
+      "id": "E-MAIN-334",
+      "t": {
+        "raw": "15590ns",
+        "unit": "ns",
+        "v": 0.00001559,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH7"
+    },
+    {
+      "id": "E-MAIN-335",
+      "t": {
+        "raw": "15620ns",
+        "unit": "ns",
+        "v": 0.00001562,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH7"
+    },
+    {
+      "id": "E-MAIN-336",
+      "t": {
+        "raw": "15670ns",
+        "unit": "ns",
+        "v": 0.00001567,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH7"
+    },
+    {
+      "id": "E-MAIN-337",
+      "t": {
+        "raw": "15700ns",
+        "unit": "ns",
+        "v": 0.000015700000000000002,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH7"
+    },
+    {
+      "id": "E-MAIN-338",
+      "t": {
+        "raw": "15740ns",
+        "unit": "ns",
+        "v": 0.000015740000000000002,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH8"
+    },
+    {
+      "id": "E-MAIN-339",
+      "t": {
+        "raw": "15750ns",
+        "unit": "ns",
+        "v": 0.00001575,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH7"
+    },
+    {
+      "id": "E-MAIN-340",
+      "t": {
+        "raw": "15780ns",
+        "unit": "ns",
+        "v": 0.00001578,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH7"
+    },
+    {
+      "id": "E-MAIN-341",
+      "t": {
+        "raw": "15830ns",
+        "unit": "ns",
+        "v": 0.000015830000000000003,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH7"
+    },
+    {
+      "id": "E-MAIN-342",
+      "t": {
+        "raw": "15860ns",
+        "unit": "ns",
+        "v": 0.00001586,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH7"
+    },
+    {
+      "id": "E-MAIN-343",
+      "t": {
+        "raw": "15910ns",
+        "unit": "ns",
+        "v": 0.000015910000000000002,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH7"
+    },
+    {
+      "id": "E-MAIN-344",
+      "t": {
+        "raw": "15940ns",
+        "unit": "ns",
+        "v": 0.00001594,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH7"
+    },
+    {
+      "id": "E-MAIN-345",
+      "t": {
+        "raw": "15980ns",
+        "unit": "ns",
+        "v": 0.00001598,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH8"
+    },
+    {
+      "id": "E-MAIN-346",
+      "t": {
+        "raw": "15990ns",
+        "unit": "ns",
+        "v": 0.00001599,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH7"
+    },
+    {
+      "id": "E-MAIN-347",
+      "t": {
+        "raw": "16020ns",
+        "unit": "ns",
+        "v": 0.000016020000000000002,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH7"
+    },
+    {
+      "id": "E-MAIN-348",
+      "t": {
+        "raw": "16070ns",
+        "unit": "ns",
+        "v": 0.00001607,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH7"
+    },
+    {
+      "id": "E-MAIN-349",
+      "t": {
+        "raw": "16100ns",
+        "unit": "ns",
+        "v": 0.000016100000000000002,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH7"
+    },
+    {
+      "id": "E-MAIN-350",
+      "t": {
+        "raw": "16150ns",
+        "unit": "ns",
+        "v": 0.00001615,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH7"
+    },
+    {
+      "id": "E-MAIN-351",
+      "t": {
+        "raw": "16180ns",
+        "unit": "ns",
+        "v": 0.00001618,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH7"
+    },
+    {
+      "id": "E-MAIN-352",
+      "t": {
+        "raw": "16220ns",
+        "unit": "ns",
+        "v": 0.00001622,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH8"
+    },
+    {
+      "id": "E-MAIN-353",
+      "t": {
+        "raw": "16230ns",
+        "unit": "ns",
+        "v": 0.000016230000000000002,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH7"
+    },
+    {
+      "id": "E-MAIN-354",
+      "t": {
+        "raw": "16260ns",
+        "unit": "ns",
+        "v": 0.00001626,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH7"
+    },
+    {
+      "id": "E-MAIN-355",
+      "t": {
+        "raw": "16300ns",
+        "unit": "ns",
+        "v": 0.0000163,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH8"
+    },
+    {
+      "id": "E-MAIN-356",
+      "t": {
+        "raw": "16310ns",
+        "unit": "ns",
+        "v": 0.00001631,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH7"
+    },
+    {
+      "id": "E-MAIN-357",
+      "t": {
+        "raw": "16340ns",
+        "unit": "ns",
+        "v": 0.00001634,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH7"
+    },
+    {
+      "id": "E-MAIN-358",
+      "t": {
+        "raw": "16390ns",
+        "unit": "ns",
+        "v": 0.00001639,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH7"
+    },
+    {
+      "id": "E-MAIN-359",
+      "t": {
+        "raw": "16420ns",
+        "unit": "ns",
+        "v": 0.000016420000000000002,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH7"
+    },
+    {
+      "id": "E-MAIN-360",
+      "t": {
+        "raw": "16470ns",
+        "unit": "ns",
+        "v": 0.00001647,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH7"
+    },
+    {
+      "id": "E-MAIN-361",
+      "t": {
+        "raw": "16500ns",
+        "unit": "ns",
+        "v": 0.0000165,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH7"
+    },
+    {
+      "id": "E-MAIN-362",
+      "t": {
+        "raw": "16550ns",
+        "unit": "ns",
+        "v": 0.000016550000000000002,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH7"
+    },
+    {
+      "id": "E-MAIN-363",
+      "t": {
+        "raw": "16580ns",
+        "unit": "ns",
+        "v": 0.00001658,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH7"
+    },
+    {
+      "id": "E-MAIN-364",
+      "t": {
+        "raw": "16630ns",
+        "unit": "ns",
+        "v": 0.000016630000000000002,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH7"
+    },
+    {
+      "id": "E-MAIN-365",
+      "t": {
+        "raw": "16660ns",
+        "unit": "ns",
+        "v": 0.00001666,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH7"
+    },
+    {
+      "id": "E-MAIN-366",
+      "t": {
+        "raw": "16700ns",
+        "unit": "ns",
+        "v": 0.0000167,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH8"
+    },
+    {
+      "id": "E-MAIN-367",
+      "t": {
+        "raw": "16710ns",
+        "unit": "ns",
+        "v": 0.00001671,
+        "ok": true
+      },
+      "level": "1",
+      "chan": "CH7"
+    },
+    {
+      "id": "E-MAIN-368",
+      "t": {
+        "raw": "16740ns",
+        "unit": "ns",
+        "v": 0.000016740000000000002,
+        "ok": true
+      },
+      "level": "0",
+      "chan": "CH7"
+    }
+  ]
+}
