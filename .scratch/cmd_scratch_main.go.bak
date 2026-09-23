@@ -1,0 +1,59 @@
+package main
+
+import (
+	"fmt"
+	"os"
+	"path/filepath"
+
+	"edgebench/internal/casepack"
+	"edgebench/internal/decode"
+	"edgebench/internal/model"
+	"edgebench/internal/store"
+)
+
+func dump(name string, m model.Material, p model.DecodeParams) {
+	r := decode.Decode(&m, p)
+	fmt.Printf("=== %s status=%s diags=%d candidates=%d\n", name, r.Status, len(r.Diagnostics), len(r.Candidates))
+	for _, d := range r.Diagnostics {
+		fmt.Printf("  diag: %s %s\n", d.Code, d.Message)
+	}
+	for _, c := range r.Candidates {
+		fmt.Printf("  cand key=%-40s conf=%.3f txns=%d\n", c.Key, c.Confidence, len(c.Transactions))
+		for _, t := range c.Transactions {
+			var bs string
+			for _, b := range t.Bytes {
+				bs += fmt.Sprintf("0x%02X(%s) ", b.Value, b.Ack)
+			}
+			fmt.Printf("    txn cs=%d status=%s bytes=%s\n", t.CS, t.Status, bs)
+		}
+		types := map[string]int{}
+		for _, e := range c.Rationale { types[e.Type]++ }
+		fmt.Printf("    events=%v\n", types)
+	}
+}
+
+func main() {
+	i2c := casepack.BuildI2C()
+	spi := casepack.BuildSPI(false)
+	spi2 := casepack.BuildSPI(true)
+	sync := casepack.BuildSync()
+	dump("i2c", i2c, model.DecodeParams{Decoder: "i2c", DecoderVersion: "i2c/1.2.0", ParamVersion: 1})
+	dump("spi", spi, model.DecodeParams{Decoder: "spi", DecoderVersion: "spi/2.0.1", ParamVersion: 1, SPIMode: "unknown"})
+	dump("sync-rising", sync, model.DecodeParams{Decoder: "sync", DecoderVersion: "sync/0.9.3", ParamVersion: 1})
+	dump("sync-falling", sync, model.DecodeParams{Decoder: "sync", DecoderVersion: "sync/0.9.3", ParamVersion: 2, Polarity: "falling"})
+	dump("spi2", spi2, model.DecodeParams{Decoder: "spi", DecoderVersion: "spi/2.0.1", ParamVersion: 1, SPIMode: "unknown"})
+
+	dir, _ := os.MkdirTemp("", "eb")
+	st, err := store.Open(filepath.Join(dir, "t.db"))
+	if err != nil { panic(err) }
+	res, err := casepack.Seed(st)
+	if err != nil { panic(err) }
+	fmt.Printf("seed ok: %+v\n", res)
+	archs, _ := st.ListArchives()
+	fmt.Printf("archives=%d\n", len(archs))
+	for _, a := range archs {
+		fmt.Printf("  [%d] %s scope=%d adopted=%d not=%d ev=%d\n", a.Seq, a.Title, len(a.AffectedScope), len(a.Adopted), len(a.NotAdopted), len(a.MachineEvents))
+	}
+	evs, _ := st.ListEvents()
+	fmt.Printf("events=%d\n", len(evs))
+}
